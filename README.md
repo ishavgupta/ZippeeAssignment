@@ -36,3 +36,10 @@ python manage.py runserver
 
 Code coverage: 96% (measured using coverage.py)
 
+pip install coverage
+
+coverage run manage.py test
+
+coverage report
+
+
