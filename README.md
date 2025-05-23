@@ -29,7 +29,11 @@ python manage.py migrate
 
 # Step 5: Runserver
 
-python manage.py runserver
+python manage.py runserver 8081
+
+paste the url into the browser to open swagger
+
+http://127.0.0.1:8081/swagger/
 
 
 # coverage report
